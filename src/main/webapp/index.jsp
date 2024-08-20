@@ -3,54 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special Message</title>
+    <title>Proposal Document</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #fefefe;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
         }
         .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
             text-align: center;
-            padding: 20px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         h1 {
-            color: #e74c3c;
-            font-size: 3em;
-            margin-bottom: 0.5em;
-        }
-        p {
-            color: #333;
-            font-size: 1.5em;
             margin: 0;
         }
-        .heart {
-            font-size: 2em;
-            color: #e74c3c;
+        .content {
+            background: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .signature {
-            margin-top: 20px;
-            font-size: 1.2em;
-            color: #555;
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        p {
+            margin: 0 0 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
 
+<header>
+    <div class="container">
+        <h1>Proposal Title</h1>
+    </div>
+</header>
+
 <div class="container">
-    <h1 class="heart">❤️</h1>
-    <p>I Love You</p>
-    <div class="signature">
-        - [Your Name]
+    <div class="content">
+        <h2>Introduction</h2>
+        <p>This section introduces the proposal. Explain the background and context here.</p>
+
+        <h2>Objectives</h2>
+        <p>Clearly define the objectives or goals of the proposal. What do you aim to achieve?</p>
+
+        <h2>Methodology</h2>
+        <p>Describe the methods or procedures you will use to achieve the objectives. Include any steps or strategies involved.</p>
+
+        <h2>Conclusion</h2>
+        <p>Summarize the main points of the proposal and highlight its importance. Offer any final thoughts or recommendations.</p>
     </div>
 </div>
+
+<footer>
+    <p>&copy; 2024 Your Name or Organization. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
